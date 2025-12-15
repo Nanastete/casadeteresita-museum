@@ -14,7 +14,7 @@ i18n:
 collections:
   - name: "blog"
     label: "Blog Posts"
-    folder: "src/content/blog"
+    folder: "src/content/blog/{locale}"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     i18n: true
